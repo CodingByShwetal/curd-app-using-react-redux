@@ -54,7 +54,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(loadUsers());
-  }, []);
+  }, [users]);
 
   const handleDelete = (id) => {
     dispatch(deleteUsers(id));

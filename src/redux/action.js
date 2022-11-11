@@ -100,13 +100,13 @@ export const addUser = (user) => {
 export const getUserDetail = (id) => {
     return function (dispatch) {
 
-        axios.get("http://localhost:5000/users/"+id).then((response) => {
+        /*axios.get("http://localhost:5000/users/"+id).then((response) => {
             console.log(response);
             dispatch(getSingleUser(response.data));
         })
         .catch((error) => {
             console.log(error);
-        });
+        });*/
 
         fetch("http://localhost:5000/users/"+id, { method: 'GET'}).then((response) => {
             console.log(response);

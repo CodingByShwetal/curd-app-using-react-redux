@@ -96,6 +96,14 @@ const EditUser = () => {
                 type="number"
                 onChange={handleInputChange}
             /><br/>
+            <TextField 
+                id="standard-basic" 
+                label="Address" 
+                value={address} 
+                name="address"
+                type="text"
+                onChange={handleInputChange}
+            /><br/>
             <Button 
                 style={{width:"100px"}} 
                 variant="contained" 
