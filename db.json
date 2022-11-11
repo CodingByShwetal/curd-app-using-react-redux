@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Shwetal Bhosale",
+      "email": "shwetalbhosale@gmail.com",
+      "contact": "9876543211",
+      "address": "Late Gaon"
+    },
+    {
+      "name": "Harshali Chavan",
+      "address": "Pune City",
+      "email": "harshalic@gmail.com",
+      "contact": "9876543232",
+      "id": 2
+    },
+    {
+      "name": "Pradnya Deshmukh",
+      "address": "Vikhale Gaon",
+      "email": "pradnya.d@gmail.com",
+      "contact": "9876543245",
+      "id": 3
+    },
+    {
+      "name": "Pratiksha Deshmukh",
+      "email": "pratiksha.d@gmail.com",
+      "contact": "8765432165",
+      "address": "Vikhale Home",
+      "id": 4
+    }
+  ]
+}
